@@ -1,0 +1,96 @@
+.user-profile {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-profile h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-profile form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.user-profile label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.user-profile input[type="text"],
+.user-profile select {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-profile button[type="submit"] {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-profile button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+.user-emails {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-emails h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-emails .email-section {
+  margin-bottom: 20px;
+}
+
+.user-emails .email-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.user-emails ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.user-emails ul li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.user-emails button {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.user-emails button:hover {
+  background-color: #0069d9;
+}

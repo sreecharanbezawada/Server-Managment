@@ -1,0 +1,67 @@
+.server-page-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.server-filter-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+}
+
+.server-filter-section label {
+  margin-right: 10px;
+}
+
+.server-filter-section input {
+  margin-right: 20px;
+}
+
+.server-list-section {
+  flex: 1;
+  overflow-y: auto;
+  margin: 20px;
+}
+
+.server-details-section {
+  flex: 2;
+  margin: 20px;
+}
+
+.server-details-section h3 {
+  margin-bottom: 10px;
+}
+
+.server-details-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.server-details-section li {
+  margin-bottom: 5px;
+}
+
+.server-details-section button {
+  margin-top: 20px;
+}
+
+.server-details-section .options-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.server-details-section .options-container label {
+  margin-bottom: 5px;
+}
+
+.server-details-section .options-container select {
+  margin-bottom: 10px;
+}
+
+.server-details-section .options-container button {
+  margin-top: 10px;
+}
+

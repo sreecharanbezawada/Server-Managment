@@ -1,0 +1,65 @@
+.setting-page {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+select {
+  margin-top: 5px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.two-factor-authentication {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.authentication-method {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.authentication-method h3 {
+  margin-top: 0;
+}
+
+.authentication-method button {
+  margin-top: 5px;
+  background-color: #28a745;
+}
+
+@media only screen and (max-width: 768px) {
+  .authentication-method {
+    flex-basis: 100%;
+  }
+  .authentication-method:not(:last-child) {
+    margin-right: 0;
+  }
+}

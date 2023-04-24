@@ -1,0 +1,80 @@
+/* Dashboard page styles */
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dashboard section {
+  flex-basis: calc(50% - 1rem);
+  margin-bottom: 2rem;
+}
+
+.dashboard h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+/* Statistics component styles */
+.statistics {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.statistics div {
+  text-align: center;
+}
+
+.statistics h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.statistics p {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Server Load Graph component styles */
+.server-load-graph {
+  height: 300px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Activity Logs component styles */
+.activity-logs {
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.activity-logs ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.activity-logs li {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.activity-logs .log-time {
+  font-weight: bold;
+}
+
+.activity-logs .log-message {
+  margin-left: 1rem;
+}

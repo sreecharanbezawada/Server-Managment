@@ -1,0 +1,51 @@
+.invoice-page {
+  margin: 50px auto;
+  width: 80%;
+}
+
+.overview-section {
+  margin-bottom: 50px;
+}
+
+.credit-balance-section,
+.payment-details-section,
+.payment-policy-section {
+  margin-bottom: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+p {
+  margin-bottom: 10px;
+}
